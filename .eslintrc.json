@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    // add recommended rules by ESLint team
+    "eslint:recommended",
+    // adjust eslint:recommended rules that conflict with @typescript-eslint/eslint-plugin
+    "plugin:@typescript-eslint/eslint-recommended",
+    // add recommended rules by @typescript-eslint/eslint-plugin
+    "plugin:@typescript-eslint/recommended",
+    // add type checking rules by @typescript-eslint/eslint-plugin
+    //"plugin:@typescript-eslint/recommended-requiring-type-checking",
+    // adjust @typescript-eslint/eslint-plugin rules that conflict with Prettier
+    "prettier/@typescript-eslint",
+    // runs Prettier as ESLint rule. Must be added as last extension.
+    "plugin:prettier/recommended"
+  ]
+}
