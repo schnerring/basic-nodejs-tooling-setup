@@ -1,7 +1,7 @@
 {
   "name": "basic-nodejs-tooling-setup",
   "version": "1.0.0",
-  "description": "Basic tooling setup for Node.js projects including EditorConfig, ESLint, Husky, lint-staged, Prettier, Typescript and VS Code",
+  "description": "Basic tooling setup for Node.js projects including EditorConfig, ESLint, Husky, lint-staged, Prettier, TypeScript and VS Code",
   "author": "Michael Schnerring <3743342+schnerring@users.noreply.github.com>",
   "license": "MIT",
   "repository": {
